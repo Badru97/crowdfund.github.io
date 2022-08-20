@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(0, 0%, 93%);
+}
+.banner{
+  background-image: url(images/image-hero-desktop.jpg);
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  
+  
+}
+.dot{
+  color:hsl(176, 72%, 28%) ;
+  font-size: 50px;
+}
+.navs{ 
+  padding-top: 25px;
+  width:90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+.navs li{
+  padding-left: 20px;
+  display: inline;
+}
+.banner p{
+  color: #fff;
+
+}
+.banner ul{
+  list-style: none;
+  
+}
+
+li a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  cursor: pointer;
+  color: hsl(0, 0%, 48%);
+}
+.minimodal{
+  height: 38vh;
+  margin-top: 250px;
+  margin-left: 240px;
+  margin-right: 240px;
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+}
+.modalbtn{
+  margin-bottom: 30px;
+  word-spacing: 250px;
+}
+.bookmarkImg{
+  width: 20px;
+}
+.minimodal p{
+  color: rgb(36, 35, 35);
+}
+
+ .minimodal button{
+  width: 120px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  border: 1px solid hsl(0, 0%, 48%);
+  font-size: small;
+  background: transparent;
+  color:hsl(0, 0%, 48%) ;
+ }
+ .logo{
+   margin-bottom: 45px;
+ }
+ .bookmark{
+   width:10px;
+ }
+.minimodal2{
+  height: 30vh;
+  margin-top: 240px;
+  margin-left: 240px;
+  margin-right: 240px;
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.minimodal2 p{
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.num{
+  font-size: 15px;
+  color: grey;
+}
+.line-divider{
+  border:0.2px solid hsl(0, 0%, 48% );
+  height: 70px;
+  color: grey;
+  margin: 20px;
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.progressbar{
+  margin-top: 5px;
+  width:400px;
+  height: 8px;
+  background-color:hsl(0, 0%, 93%) ;
+  border-radius: 25px;
+  border:1px;
+}
+.progressbarCover{
+  width:75%;
+  height: 8px;
+  background-color:hsl(176, 50%, 47%) ;
+  border-radius: 25px;
+  border:1px ;
+}
+
+.aboutProject{
+  height: 150vh;
+  margin-top: 30px;
+  margin-left: 240px;
+  margin-right: 240px;
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column ;
+}
+.box1{
+  padding: 20px 0;
+  border:1px solid hsl(0, 0%, 48%);
+  border-radius: 5px;
+}
+li{
+  display: inline;
+  list-style: none;
+}
+.pledge{
+  color:hsl(176, 72%, 28%) ;
+  padding-left: 220px;
+}
+.abwords{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.rewardbtn{
+  width: 120px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  background-color: hsl(176, 72%, 28%);
+  border: 1px solid hsl(176, 72%, 28%);
+  font-size: small;
+  color:#fff;
+}
+
+.rewardbtn1{
+  width: 120px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  background-color: hsl(176, 72%, 28%);
+  border: 1px solid hsl(176, 72%, 28%);
+  font-size: small;
+  color:#fff;
+}
+.rewardNum{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+.box2{
+  padding: 20px 0;
+  border:1px solid hsl(0, 0%, 48%);
+}
+.box3{
+  opacity: .4;
+  padding: 20px 0;
+  border:1px solid hsl(0, 0%, 48%);
+}
+
+.modalcover{
+  overflow: hidden;
+  height: 310vh;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  place-items: center;
+  font-size: 14px;
+  opacity: 0;
+}
+.modal1{
+  font-size: 14pxs;
+  padding-left: 30px;
+  margin-left: 60px;
+  background-color: #fff;
+  width:60% ;
+  height: 100vh;
+}
+#close{
+  padding-left: 60%;
+}
+.modalbox{
+  width: 70%;
+  padding-top: 10px;
+  padding-left: 20px;
+  border: 1px solid hsl(0, 0%, 93%);
+  border-radius: 5px;
+}
+.modalbox1:hover{
+  border: 1px solid hsl(176, 72%, 28%);
+}
+.stand :hover{
+  cursor: pointer;
+  color: hsl(176, 72%, 28%);
+}
+.pledgeBox{
+  opacity: 0;
+}
+.modalSucessCover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 310vh;
+  opacity: 0;
+}
+.modalSucess{
+  background-color: #fff;
+  width: 40%;
+  height: 50vh;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+.check{
+  width: 60px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+.modalSucessBtn{
+  border: 1px solid  hsl(176, 72%, 28%);
+  width: 80px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 25px;
+  background-color:  hsl(176, 72%, 28%);
+  color: #fff;
+  margin-left: 140px;
+  
+}
+.thanks{
+  margin-left: 50px;
+}
